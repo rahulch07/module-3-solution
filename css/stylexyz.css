@@ -1,0 +1,235 @@
+body {
+    background-color: #61122f;
+}
+
+#nav-header {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo {
+    background: url(../Images/Chrome\ Image.png);
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-bran a:hover , .navbar-bran a :focus{
+    text-decoration: none;
+    
+}
+
+#nav-list {
+    margin: 10px;
+}
+#nav-list a {
+    color: #61122f;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a{
+    font-size: 1.3em;
+}
+#nav-list a span {
+    margin-right: 5px;
+}
+#phone{
+    margin-top: 5px;
+}
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div{
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -45px;
+
+  }
+
+  /* Home Page */
+  .container .jumbotron {
+      border: 2px solid #3F0C1F;
+      box-shadow: 0 0 50px #3F0C1F;
+  }
+  #menu-tile, #special-tile, #map-tile {
+      width: 100%;
+      height: 255px;
+      border:  2px solid #3F0C1F;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+      
+  }
+#menu-tile:hover , #special-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+  #menu-tile{
+    background: url(../Images/menu-tile.jpg) no-repeat ;
+    background-position: center
+  }
+  #special-tile {
+    background: url(../Images/specials-tile.jpg) no-repeat;
+    background-position: center;
+  }
+ /* #map-tile {
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d641.5407027202242!2d72.85891634308844!3d19.126044398749347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c829a001d609%3A0x42e77e7f12dd8435!2sHotel%20Durga%20Bar%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1629400162021!5m2!1sen!2sin" width="100%" height="225px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  }*/
+#menu-tile span ,#special-tile span, #map-tile span {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.container h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Menu-Catogary */
+.catogary-tile {
+    position: relative;
+    width: 200px;
+    margin: 0px auto 15px;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+.catogary-tile span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    opacity: .7;
+}
+.catogary-tile:hover{
+    box-shadow: 0 1px 5px 1px; #cccccc;
+}
+
+
+/* Footer */
+.panel-footer{
+   margin-top: 30px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: #222;
+   border-top: 0;
+   color: #fff;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+#testimonials p{
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+#address p{
+    color: #557c3e;
+}
+
+
+  /* 1200px and more */
+@media (min-width: 1200px) {
+.container .jumbotron {
+        background: url(../Images/jumbotron_1200.jpg);
+        height: 675px;
+    }
+}
+
+
+
+
+
+  /* 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+.container .jumbotron {
+    background: url(../Images/jumbotron_992.jpg);
+    height: 558px;
+}
+}
+
+
+
+
+  /* 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+.container .jumbotron {
+    background: url(../Images/jumbotron_768.jpg);
+    height: 432px;
+}
+}
+ 
+
+
+
+
+
+  /* 767 and less */
+@media (max-width: 767px) {
+      .navbar-bran h1 {
+          margin-top: 5px;
+      }
+      .navbar-bran{
+          margin-left: 20px;
+      }
+
+#call-button {
+    background-color: #f6b319;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.container .jumbotron{
+    margin-top: 20px;
+    padding: 0;
+}
+#menu-tile,#special-tile{
+    width: 360px;
+    margin: 0px auto 20px;
+}
+
+/* Footer */
+.panel-footer section{
+    text-align: center;
+}
+.panel-footer section hr{
+    width: 50%;
+    color: #fff;
+}
+
+}
+
+@media (max-width: 479px) {
+    .col-xxs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;   
+    }
+}
